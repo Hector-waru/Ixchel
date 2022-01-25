@@ -7,3 +7,5 @@ Lista de participantes del proyecto integrador
 - https://github.com/Carlosjobber
 - https://github.com/Hector-waru (comentario de prueba para agregar ramas)
 - https://github.com/shainSan
+
+Hola, amigos
