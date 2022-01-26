@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(87,12,131);
+}
+
+.logo {
+    width: 200px;
+    display: flex;
+    margin: auto;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.direccion-entrega {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(87,12,131);
+    font-weight: bold;
+    text-align: center;
+}
+
+.labels {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(87,12,131);
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#direccion {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(129, 129, 129);
+    width: 10cm;
+    height: 1cm;
+    margin-left: 50px;
+    border: solid 1px;
+}
+
+#estado {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(129, 129, 129);
+    width: 10cm;
+    height: 1cm;
+    margin-left: 50px;
+    border: solid 1px;
+}
+
+#ciudad {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(129, 129, 129);
+    width: 10cm;
+    height: 1cm;
+    margin-left: 50px;
+    border: solid 1px;
+}
+
+#codigo-postal {
+    font-family: 'Mukta', sans-serif;
+    color: rgb(129, 129, 129);
+    width: 10cm;
+    height: 1cm;
+    margin-left: 50px;
+    border: solid 1px;
+}
+
+#btn-direccion {
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(228,0,124);
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 2px rgb(96,16,133);
+    margin-left: 3cm;
+}
