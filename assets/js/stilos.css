@@ -1,6 +1,41 @@
 body {
+<<<<<<< HEAD
     background-color: #570C83;
     color: white;
     font-family: 'Mukta', sans-serif;
     font-size: 20px;
+=======
+  background-color: #570c83;
+  color: white;
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.artesanos {
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.login {
+  margin-left: 450px;
+  margin-right: 20px;
+}
+
+.signup {
+  margin-right: 60px;
+  margin-left: 10px;
+}
+
+.signup-btn {
+  color: white;
+  background-color: #570c83;
+  border: 4px solid white;
+  border-radius: 20px;
+  margin: 0;
+  padding: 2 0;
+>>>>>>> 051f78657331a9c6a0b2cda11b86251f3b4c0cb0
 }
