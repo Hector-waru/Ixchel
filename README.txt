@@ -1,6 +1,6 @@
 Lista de participantes del proyecto integrador
 - https://github.com/rebecacuevas [comentario para pasar lista, rama creada - modificación 20:51]
-- https://github.com/SeijiTaka14
+- https://github.com/SeijiTaka14 (comentario de prueba para agregar mi rama)
 - https://github.com/gemavarela
 - https://github.com/Roxana-Bautista-CL2
 - https://github.com/JoseMartinAlmanza

@@ -1,10 +1,5 @@
 body {
-<<<<<<< HEAD
-    background-color: #570C83;
-    color: white;
-    font-family: 'Mukta', sans-serif;
-    font-size: 20px;
-=======
+
   background-color: #570c83;
   color: white;
   font-family: "Mukta", sans-serif;
@@ -37,5 +32,4 @@ body {
   border-radius: 20px;
   margin: 0;
   padding: 2 0;
->>>>>>> 051f78657331a9c6a0b2cda11b86251f3b4c0cb0
 }
