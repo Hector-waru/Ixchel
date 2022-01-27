@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="/imagenes/lunita-purple.png">
+        <!-- Styles -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/pago.css">
+        <title>Check-out</title>
+    </head>
+    <body>
+        
+        <img src="assets/imgs/logo.png" alt="Logo Ixchel" class="logo">
+
+        <div class="container">
+            <br>
+            <h2 class="datos-pago-titulo">Datos de pago</h2>
+            <br>
+            <label for="numeros-tarjeta" class="labels">Ingresa los números de tu tarjeta</label>
+            <br>
+            <input type="number" name="numeros-tarjeta" id="numeros-tarjeta" placeholder="XXXX-XXXX-XXXX-XXXX">
+            <br>
+            <br>
+            <label for="titular-tarjeta" class="labels">Nombre del titular de la tarjeta</label>
+            <br>
+            <input type="text" name="titular-tarjeta" id="titular-tarjeta" placeholder="Escribe el nombre como está escrito en la tarjeta">
+            <br>
+            <br>
+            <label for="vencimiento" class="labels">Fecha de vencimiento</label>
+            <br>
+            <input type="number" name="vencimiento" id="vencimiento" placeholder="MM/AA">
+            <br>
+            <br>
+            <label for="cvv" class="labels">CVV</label>
+            <br>
+            <input type="number" name="cvv" id="cvv" placeholder="XXX">
+            <br>
+            <br>
+            <button id="btn-pedido">Confirmar pedido</button>
+        </div>
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    </body>
+</html>

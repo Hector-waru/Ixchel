@@ -1,0 +1,27 @@
+.logo {
+  margin-left: 20px;
+}
+
+.artesanos {
+  margin-left: 200px;
+  margin-right: 50px;
+}
+
+.login {
+  margin-left: 450px;
+  margin-right: 20px;
+}
+
+.signup {
+  margin-right: 60px;
+  margin-left: 10px;
+}
+
+.signup-btn {
+  color: white;
+  background-color: #570c83;
+  border: 4px solid white;
+  border-radius: 20px;
+  margin: 0;
+  padding: 2 0;
+}
