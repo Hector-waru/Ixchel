@@ -1,0 +1,86 @@
+body {
+  background-color: rgb(87, 12, 131);
+}
+
+.logo {
+  width: 200px;
+  display: flex;
+  margin: auto;
+}
+
+.container {
+  background-color: white;
+  width: 600px;
+  height: 550px;
+  border-radius: 20px;
+}
+
+.datos-pago-titulo {
+  font-family: "Mukta", sans-serif;
+  color: rgb(87, 12, 131);
+  font-weight: bold;
+  text-align: center;
+}
+
+.labels {
+  font-family: "Mukta", sans-serif;
+  color: rgb(87, 12, 131);
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+#numeros-tarjeta {
+  font-family: "Mukta", sans-serif;
+  color: rgb(129, 129, 129);
+  width: 10cm;
+  height: 1cm;
+  margin-left: 50px;
+  border: solid 1px;
+}
+
+#titular-tarjeta {
+  font-family: "Mukta", sans-serif;
+  color: rgb(129, 129, 129);
+  width: 10cm;
+  height: 1cm;
+  margin-left: 50px;
+  border: solid 1px;
+}
+
+#vencimiento {
+  font-family: "Mukta", sans-serif;
+  color: rgb(129, 129, 129);
+  width: 10cm;
+  height: 1cm;
+  margin-left: 50px;
+  border: solid 1px;
+}
+
+#cvv {
+  font-family: "Mukta", sans-serif;
+  color: rgb(129, 129, 129);
+  width: 10cm;
+  height: 1cm;
+  margin-left: 50px;
+  border: solid 1px;
+}
+
+#btn-pedido {
+  font-family: "Mukta", sans-serif;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(228, 0, 124);
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: solid 2px rgb(96, 16, 133);
+  margin-left: 3cm;
+}
+
+/* esconder flechas de incremento del input tipo número*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
