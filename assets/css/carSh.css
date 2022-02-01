@@ -1,0 +1,21 @@
+main form.Borde{
+    background: hsla(305, 100%, 100%, 0.81);
+    border: 5px solid rgba(121, 29, 226, 0.726);
+    height: 40%;
+    width: 40%;
+    box-shadow: 10px 5px 5px black;
+    border-radius: 10px;
+}
+.mensajeVacio{
+    color: tomato;
+}
+.container-lg{
+    display: flexbox;
+    margin-top: 10%;
+}
+.oculto {
+    display: none;
+}
+main div .producto{
+    background-color: hsla(360, 100%, 100%, 0.86);
+}
