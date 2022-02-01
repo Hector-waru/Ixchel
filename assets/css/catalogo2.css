@@ -1,0 +1,22 @@
+/* Catalogo*/
+.artisan-title {
+    font-weight: bold;
+    margin: 55px 0;
+
+  }
+  .text {
+    margin: 70px 150px;
+  }
+  
+  .profile {
+    margin: 50px 100px;
+  }
+  
+  .avatar {
+    display: inline-block;
+    padding: 0 41px;
+  }
+  
+  .name {
+    text-align: center;
+  }
