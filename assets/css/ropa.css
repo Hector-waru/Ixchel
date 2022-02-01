@@ -1,0 +1,23 @@
+/* Ropa*/
+.title {
+    font-weight: bold;
+    margin: 55px 0;
+    text-align: center;
+
+  }
+  .text {
+    margin: 70px 150px;
+  }
+  
+  .profile {
+    margin: 50px 150px;
+  }
+  
+  .avatar {
+    display: inline-block;
+    padding: 0 70px;
+  }
+  
+  .name {
+    text-align: center;
+  }

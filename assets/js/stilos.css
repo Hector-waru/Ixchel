@@ -1,6 +1,11 @@
 body {
-  background-color: #570c83;
-  color: white;
-  font-family: "Mukta", sans-serif;
-  font-size: 20px;
+    background-color:#570c83 ;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    color: white;
+    
+}
+.ropa{
+    height: 300px;
+    width: 300px;
 }
