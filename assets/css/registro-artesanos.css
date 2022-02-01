@@ -3,7 +3,8 @@ body {
 }
 
 .logo {
-  margin-left: 16cm;
+  display: flex;
+  margin: 0 auto;
   margin-top: 10px;
   width: 100px;
   height: 50px;
@@ -14,6 +15,7 @@ body {
   width: 15cm;
   height: 17.5cm;
   border-radius: 50px;
+  margin-top: -35px;
 }
 
 .registrate {
@@ -28,7 +30,7 @@ body {
   color: rgb(87,12,131);
   font-weight: bold;
   font-size: 20px;
-  margin-left: 50px;
+  margin-left: 77px;
 }
 
 #email {
@@ -36,7 +38,7 @@ body {
   color: rgb(129, 129, 129);
   width: 10cm;
   height: 1cm;
-  margin-left: 50px;
+  margin-left: 77px;
   border: solid 1px;
 }
 
@@ -45,7 +47,7 @@ body {
   color: rgb(129, 129, 129);
   width: 10cm;
   height: 1cm;
-  margin-left: 50px;
+  margin-left: 77px;
   border: solid 1px;
 }
 
@@ -54,7 +56,7 @@ body {
   color: rgb(129, 129, 129);
   width: 10cm;
   height: 1cm;
-  margin-left: 50px;
+  margin-left: 77px;
   border: solid 1px;
 }
 
