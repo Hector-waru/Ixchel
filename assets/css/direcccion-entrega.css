@@ -27,7 +27,7 @@ body {
     color: rgb(87,12,131);
     font-weight: bold;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 90px;
 }
 
 #direccion {
@@ -35,7 +35,7 @@ body {
     color: rgb(129, 129, 129);
     width: 10cm;
     height: 1cm;
-    margin-left: 50px;
+    margin-left: 90px;
     border: solid 1px;
 }
 
@@ -44,7 +44,7 @@ body {
     color: rgb(129, 129, 129);
     width: 10cm;
     height: 1cm;
-    margin-left: 50px;
+    margin-left: 90px;
     border: solid 1px;
 }
 
@@ -53,7 +53,7 @@ body {
     color: rgb(129, 129, 129);
     width: 10cm;
     height: 1cm;
-    margin-left: 50px;
+    margin-left: 90px;
     border: solid 1px;
 }
 
@@ -62,7 +62,7 @@ body {
     color: rgb(129, 129, 129);
     width: 10cm;
     height: 1cm;
-    margin-left: 50px;
+    margin-left: 90px;
     border: solid 1px;
 }
 
@@ -75,5 +75,5 @@ body {
     height: 40px;
     border-radius: 5px;
     border: solid 2px rgb(96,16,133);
-    margin-left: 3cm;
+    margin-left: 3.5cm;
 }

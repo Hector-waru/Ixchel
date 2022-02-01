@@ -17,6 +17,7 @@ body {
     width: 15cm;
     height: 15cm;
     border-radius: 50px;
+    margin-top: -15px;
 }
 
 .iniciar-sesion {
@@ -31,7 +32,7 @@ body {
     color: rgb(87,12,131);
     font-weight: bold;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 75px;
 }
 
 #email {
@@ -39,7 +40,7 @@ body {
     color: rgb(129, 129, 129);
     width: 10cm;
     height: 1cm;
-    margin-left: 50px;
+    margin-left: 75px;
     border: solid 1px;
 }
 
@@ -48,7 +49,7 @@ body {
     color: rgb(129, 129, 129);
     width: 10cm;
     height: 1cm;
-    margin-left: 50px;
+    margin-left: 75px;
     border: solid 1px;
 }
 
