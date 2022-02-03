@@ -1,11 +1,11 @@
 
 
-body {  /*Si se quita esto se mueve el diseño*/
+.bodyfooter {  /*Si se quita esto se mueve el diseño*/
     display:flex;
     justify-content: flex-end;
     align-items: flex-end;
     min-height: 100vh;
-    background: #333
+    background:#570c83;
 }
 
 footer {

@@ -25,3 +25,21 @@
   margin: 0;
   padding: 2 0;
 }
+
+.icon {
+  list-style: none;
+  font-size: 2em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.header {
+  background-color: #570c83;
+  height: 80px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
