@@ -19,3 +19,41 @@ main form.Borde{
 main div .producto{
     background-color: hsla(360, 100%, 100%, 0.86);
 }
+/*  */
+.size span {
+    font-size: 11px
+}
+
+.color span {
+    font-size: 11px
+}
+
+.product-deta {
+    margin-right: 70px
+}
+
+.gift-card:focus {
+    box-shadow: none
+}
+
+.pay-button {
+    color: #fff
+}
+
+.pay-button:hover {
+    color: #fff
+}
+
+.pay-button:focus {
+    color: #fff;
+    box-shadow: none
+}
+
+.text-black {
+    color: #000000
+}
+
+.qty i {
+    font-size: 11px
+}
+/*  */
