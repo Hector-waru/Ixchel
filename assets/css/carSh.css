@@ -1,8 +1,8 @@
 main form.Borde{
     background: hsla(305, 100%, 100%, 0.81);
-    border: 5px solid rgba(121, 29, 226, 0.726);
-    height: 40%;
-    width: 40%;
+    border: 5px solid rgba(191, 17, 207, 0.726);
+    height: 60%;
+    width: 60%;
     box-shadow: 10px 5px 5px black;
     border-radius: 10px;
 }
