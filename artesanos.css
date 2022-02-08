@@ -1,0 +1,169 @@
+
+
+body {
+    margin: 0;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    min-height: 100vh;
+    background: #570c83;
+    color: white;
+    font-family: "Mukta", sans-serif;
+    font-size: 20px;
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+.logo {
+    margin-left: 20px;
+  }
+  .artisan-title {
+    font-weight: bold;
+    margin: 50px 0;
+  }
+  .avatar {
+    display: inline-block;
+    padding: 0 100px;
+  }
+  .artesanos {
+    margin-left: 200px;
+    margin-right: 50px;
+  }
+  
+  .login {
+    margin-left: 450px;
+    margin-right: 20px;
+  }
+  
+  .signup {
+    margin-right: 60px;
+    margin-left: 10px;
+  }
+  
+  .signup-btn {
+    color: white;
+    background-color: #570c83;
+    border: 4px solid white;
+    border-radius: 20px;
+    margin: 0;
+    padding: 2 0;
+  }
+  
+  /* ARTESANOS */
+  .text {
+    margin: 50px 150px;
+  }
+  
+  .profile {
+    margin: 50px 150px;
+  }
+footer {
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 20px;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.logo img{
+    width: 130px ;
+    flex-direction: column;
+    
+}
+
+footer .social_icon, 
+footer .menu{  /*iconos*/
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li,
+footer .menu li{
+    list-style: none; 
+}
+footer .social_icon li a {
+    font-size: 1.8em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translateY(-10px);
+} 
+footer .menu li a {
+    font-size: 1.em;
+    color: #fff;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.75;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size:1.1em;
+}
+
+footer .wave{
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: url(imagenes/wave.png);
+    background-size: 1000px 100px;
+}
+footer .wave#wave1{
+    z-index: 1000;
+    opacity: 0.8;
+    bottom: 0;
+    animation: animateWave 4s linear infinite;
+}
+footer .wave#wave2{
+    z-index: 999;
+    opacity: 0.5;
+    bottom: 10px;
+    animation: animateWave_02 4s linear infinite;
+}
+footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+}
+footer .wave#wave4{
+    z-index: 990;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
+}
+@keyframes animateWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0px;
+    }
+}
+@keyframes animateWave_02{
+    0%{
+        background-position-x: 0px;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+
