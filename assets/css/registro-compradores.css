@@ -13,7 +13,7 @@ body {
 .container {
   background-color: white;
   width: 14cm;
-  height: 15cm;
+  height: 15.7cm;
   margin-top: -35px;
   border-radius: 50px;
 }
@@ -98,4 +98,5 @@ body {
   margin: auto;
   border-radius: 5px;
   border: solid 2px rgb(96,16,133);
+  
 }

@@ -22,40 +22,50 @@
 <br>
 <br>
     <div class="container">
-        <br>
+      <form id="registro-artesano">
+      <br>
         <br>
         <h2 class="registrate">Regístrate como artesano(a)</h2>
-        
         <br>
-        
+        <!--Nombre-->
+        <label for="nombre" class="labels">Ingresa tu nombre completo</label>
+        <br>
+        <input type="text" id="name" placeholder="Ingresa tu nombre">
+        <br>
+        <br>
+        <!--Correo-->
         <label for="email" class="labels">Ingresa tu correo electrónico</label>
         <br>
         <input type="email" id="email" placeholder="Ingresa tu correo electrónico">
         <br>
         <br>
-        <!--Falta pedir información a lxs artesanxs-->
-        <label for="email" class="labels">Espacio para pedir información a artesnxs</label>
+        <!--Direccion-->
+        <label for="direccion" class="labels">Ingresa tu domicilio</label>
         <br>
-        <input type="email" id="email" placeholder="Espacio para pedir información a artesnxs">
-        <br>
-        <br>
-        <!--Falta pedir información a lxs artesanxs-->
-        <label for="email" class="labels">Espacio para pedir información a artesnxs</label>
-        <br>
-        <input type="email" id="email" placeholder="Espacio para pedir información a artesanxs">
+        <input type="text" id="direccion" placeholder="Ingresa tu domicilio">
         <br>
         <br>
-        <label for="email" class="labels">Ingresa tu contraseña</label>
+        <!--RFC-->
+        <label for="rfc" id="label-rfc">Ingresa tu RFC (Registro Federal de Contribuyentes)</label>
+        <br>
+        <input type="text" id="rfc" placeholder="Ingresa tu RFC">
+        <br>
+        <br>
+        <!--Contraseña1-->
+        <label for="password1" class="labels">Ingresa tu contraseña</label>
         <br>
         <input type="password" id="password1" placeholder="Ingresa tu contraseña">
         <br>
         <br>
-        <label for="email" class="labels">Confirmar contraseña</label>
+        <!--Contraseña2-->
+        <label for="password2" class="labels">Ingresa tu contraseña nuevamente</label>
         <br>
         <input type="password" id="password2" placeholder="Ingresa tu contraseña nuevamente">
         <br>
         <br>
-        <button id="btn-registrarse">Registrarse</button>
+        <!--Botón registro-->
+        <input type="submit" id="btn-registrarse" value="Registrarse">
+      </form>  
     </div>
 
     
