@@ -1,0 +1,90 @@
+body {
+  background-color: #570c83;
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.titulo-principal {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.flex-container {
+  margin: 150px;
+}
+
+.form {
+  margin: auto;
+  background-color: white;
+  color: #570c83;
+  border-radius: 20px;
+  width: 600px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.formulario {
+  margin: 10px;
+  padding: 10px;
+}
+
+.texto-label {
+  font-weight: 700;
+  font-size: large;
+}
+
+.campos {
+  margin: 20px 0;
+}
+
+.input-vendedor {
+  width: 450px;
+}
+
+.radio-categorias {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-btn-arte {
+  margin-right: 5px;
+}
+
+.arte-categorias {
+  margin-right: 50px;
+}
+
+.joyeria-categorias {
+  margin-right: 5px;
+}
+
+.fotos {
+  margin-bottom: 10px;
+}
+
+.btn-publicar {
+  display: flex;
+  margin: auto;
+  color: white;
+  background-color: #570c83;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 30px;
+}
+
+#arte {
+  display: none;
+}
+
+#joyeria {
+  display: none;
+}
