@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/lunita-purple.png">
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/publicar-producto.css">
+    <!-- JS -->
+    <script src="assets/js/publicar-producto.js" defer></script>
+    <title>Ixchel</title>
+</head>
+<body>
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+        <div class="container-fluid logo">
+          <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" width="150"></a>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item left-bar artesanos">
+                <a class="nav-link active" aria-current="page" href="artesanos.html">Artesanos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="catalogo.html">Catálogo</a>
+              </li>
+              <li class="nav-item login">
+                <a class="nav-link active" aria-current="page" href="perfil-vendedor.html">Mi perfil</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="flex-container">
+
+            <h2 class="titulo-principal">¡Hora de mostrarle tu arte al mundo!</h2>
+
+            <div class="form center">
+                <form action="" class="formulario">
+
+                  <fieldset class="campos">
+                    <legend class="texto-label">Elige la categoría de tu producto</legend><br>
+
+                    <div class="radio-categorias">
+                      <input type="radio" name="categoria" id="categoria-uno" class="radio-btn-arte" onclick="mostrarArte()">
+                      <label for="categoria-uno" class="arte-categorias" id="categoria-uno">Arte</label>
+
+                      <input type="radio" name="categoria" id="categoria-dos" class="joyeria-categorias" onclick="mostrarJoyeria()">
+                      <label for="categoria-dos" id="categoria-dos">Joyería</label>
+                    </div>
+                  </fieldset>
+
+                  <fieldset class="campos" id="arte">
+                    <legend class="texto-label">Elige la categoría que mejor se adapte a tu producto</legend>
+
+                    <input type="radio" id="sub-uno" name="subcategorias">
+                    <label for="subcategorias" id="sub-uno">Huichol</label><br>
+
+                    <input type="radio" id="sub-dos" name="subcategorias">
+                    <label for="subcategorias" id="sub-dos">Árboles de la vida</label><br>
+
+                    <input type="radio" id="sub-tres" name="subcategorias">
+                    <label for="subcategorias" id="sub-tres">Alebrijes</label><br>
+                  </fieldset>
+
+                  <fieldset class="campos" id="joyeria">
+                    <legend class="texto-label">Elige la categoría que mejor se adapte a tu producto</legend>
+
+                    <input type="radio" id="sub-uno" name="subcategorias">
+                    <label for="subcategorias" id="sub-uno">Jade</label><br>
+
+                    <input type="radio" id="sub-dos" name="subcategorias">
+                    <label for="subcategorias" id="sub-dos">Platería</label><br>
+
+                    <input type="radio" id="sub-tres" name="subcategorias">
+                    <label for="subcategorias" id="sub-tres">Tejido</label><br>
+                  </fieldset>
+
+
+                  <fieldset class="campos">
+                    <legend class="texto-label">¿Es pieza única?</legend>
+
+                    <input type="radio" name="radio-unica" class="radio-unica">
+                    <label for="si">Sí</label><br>
+
+                    <input type="radio" name="radio-unica" class="radio-unica">
+                    <label for="no">No</label><br>
+                  </fieldset>
+
+                  <div class="campos">
+                    <label for="titulo" class="texto-label">Título del producto</label><br>
+                    <input type="text" name="titulo" class="input-vendedor"><br>
+                  </div>
+
+                  <div class="campos">
+                    <label for="descripcion" class="texto-label">Descripción de tu producto [200 palabras máximo]</label><br>
+                    <textarea name="descripcion" id="descripcion" class="input-vendedor"></textarea>
+                  </div>
+
+
+                  <div class="campos">
+                    <label for="fotos" class="texto-label">Agregar las fotos de tu producto</label><br>
+                    <input type="file" name="fotos" class="fotos"><br>
+                  </div>
+
+                  <div class="btn-publicar">
+                    <button type="submit" class="btn-publicar">Crear publicación</button><br>
+                  </div>
+
+                </form>
+            </div>
+
+      </main>
+      
+      <!-- Optional JavaScript; choose one of the two! -->
+          <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+          <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+</body>
+</html>
