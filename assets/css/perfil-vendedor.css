@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #570c83;
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  margin-left: 230px;
+}
+
+.main-content {
+  width: 50%;
+}
+
+.main-btn {
+  width: 50%;
+}
+
+.nombre-artesano {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.avatar {
+  margin-left: 110px;
+  margin-top: 50px;
+  width: 200px;
+}
+
+.profile-text {
+  margin-top: 30px;
+  width: 430px;
+  height: 100px;
+  background-color: #570c83;
+  border: none;
+  color: white;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.profile-btn {
+  margin-top: 20px;
+  margin-left: 110px;
+  position: relative;
+  left: 5%;
+  background-color: #570c83;
+  border: solid 3px white;
+  border-radius: 20px;
+  color: white;
+  padding: 0 10px;
+}
+
+.productos {
+  margin: 30px;
+  background-color: #570c83;
+  border: solid 3px white;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 50px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.pedidos {
+  margin: 30px;
+  background-color: #570c83;
+  border: solid 3px white;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 80px;
+  font-size: larger;
+  font-weight: 700;
+}
+
+.icon-btn-one {
+  width: 70px;
+  margin-right: 20px;
+}
+
+.icon-btn-two {
+  width: 70px;
+  margin-right: 20px;
+  margin-left: 0;
+}
