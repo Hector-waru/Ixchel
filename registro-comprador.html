@@ -29,25 +29,26 @@
           <h2 class="registrate">Regístrate</h2>
           
           <br>
-          
+          <!--Correo-->
           <label for="email" class="labels">Ingresa tu correo electrónico</label>
           <br>
           <input type="email" id="email" placeholder="Ingresa tu correo electrónico">
           <br>
           <br>
+          <!--Contraseña 1-->
           <label for="email" class="labels">Ingresa tu contraseña</label>
           <br>
           <input type="password" id="password1" placeholder="Ingresa tu contraseña">
           <br>
           <br>
+          <!--Contraseña 2-->
           <label for="email" class="labels">Confirmar contraseña</label>
           <br>
           <input type="password" id="password2" placeholder="Ingresa tu contraseña nuevamente">
           <br>
           <br>
-          <input type="submit" id="btn-registrarse" value="Registrarse">
-          <!--<button id="btn-registrarse">Registrarse</button>-->
-          <br>
+        </form>
+        <button id="btn-registrarse" onclick="getInfoComprador()"> Registrarse</button>
           <br>
           <p class="nuevo-artesano">¿Eres artesano(a)?</p>
           <div class="btn-nuevo">
@@ -55,7 +56,7 @@
                   <a href="registro-artesanos.html" id="btn-nuevo-registro-artesano">Regístrate aquí</a>
               </div>
           </div>
-        </form>
+        
       </div>
   
     
@@ -66,5 +67,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
     
+<script src="assets/js/registro-comprador-validacion.js"></script>
+
   </body>
 </html>
