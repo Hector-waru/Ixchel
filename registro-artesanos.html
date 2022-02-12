@@ -18,19 +18,20 @@
     <title>Registro Artesano</title>
   </head>
   <body>
-    <a href="index.html"> <img src="assets/imgs/logo.png" alt="Logo Ixchel" class="logo"></a>
+    
 <br>
 <br>
     <div class="container">
+      <a href="index.html"> <img src="assets/imgs/logo-morado.png" alt="Logo Ixchel" class="logo"></a>
+      
       <form id="registro-artesano">
-      <br>
         <br>
         <h2 class="registrate">Regístrate como artesano(a)</h2>
         <br>
         <!--Nombre-->
         <label for="nombre" class="labels">Ingresa tu nombre completo</label>
         <br>
-        <input type="text" id="name" placeholder="Ingresa tu nombre">
+        <input type="text" id="name" placeholder="Ingresa tu nombre" required>
         <br>
         <br>
         <!--Correo-->
@@ -64,8 +65,10 @@
         <br>
         <br>
         <!--Botón registro-->
-        <input type="submit" id="btn-registrarse" value="Registrarse">
-      </form>  
+        <!--<button id="btn-registrarse" value="Registrare" onclick="getInfo()">Registrarse</button>-->
+        
+      </form> 
+      <button id="btn-registrarse" value="Registrare" onclick="getInfo()">Registrarse</button> 
     </div>
 
     
@@ -75,6 +78,8 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <script src="assets/js/registro-artesano-validacion.js"></script>
     
   </body>
 </html>
