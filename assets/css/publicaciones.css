@@ -1,0 +1,14 @@
+.titulo {
+  padding-bottom: 30px;
+}
+
+.card-title {
+  color: black;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  color: black;
+  font-size: medium;
+}

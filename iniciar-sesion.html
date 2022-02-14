@@ -18,27 +18,34 @@
     <title>Iniciar Sesión</title>
   </head>
   <body>
-    <div class="logo">
-        <a href="index.html"><img src="assets/imgs/logo.png" alt="Logo Ixchel" id="logo"></a>
-    </div>
+    
+    <!--<div class="logo">
+        <a href="index.html"><img src="assets/imgs/logo.png" alt="Logo Ixchel" id="logo" class="img-fluid"></a>
+    </div>-->
     <br>
     <div class="container">
+      <div class="logo">
+        <a href="index.html"><img src="assets/imgs/logo-morado.png" alt="Logo Ixchel" id="logo" class="img-fluid"></a>
+    </div>
         <br>
         <h2 class="iniciar-sesion">Iniciar Sesión</h2>
         <br>
-        <label for="email" class="labels">Ingresa tu correo electrónico</label>
+        <form>
+          <label for="email" class="labels">Ingresa tu correo electrónico</label>
+          <br>
+          <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+          <br>
+          <br>
+          <label for="password" class="labels">Ingresa tu contraseña</label>
+          <br>
+          <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña">
+          <br>
+          <br>
+        </form>
+        <button id="btn-iniciar" onclick="validarIniciarSesion()">Iniciar</button>
+        
         <br>
-        <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
-        <br>
-        <br>
-        <label for="password" class="labels">Ingresa tu contraseña</label>
-        <br>
-        <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña">
-        <br>
-        <br>
-        <button id="btn-iniciar">Iniciar</button>
-        <br>
-        <br>
+        
         <p class="nuevo-miembro">¿Eres nuevo(a) en Ixchel?</p>
         <div class="btn-nuevo">
             <div class="center">
@@ -61,6 +68,6 @@
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    
+    <script src="assets/js/iniciar-sesion-validacion.js"></script>
   </body>
 </html>
