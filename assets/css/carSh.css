@@ -1,59 +1,78 @@
-main form.Borde{
-    background: hsla(305, 100%, 100%, 0.81);
-    border: 5px solid rgba(191, 17, 207, 0.726);
+body{
+    font-size: 1em;
+}
+.btnBordes{
+    border:solid 0.25em rgb(73, 154, 230);
+    border-radius: 1em;
+}
+.piezasPZS{
+    margin-top: 4em;
+    color: aqua;
+}
+.productoPiezas{
+    text-align:center;
+    font-size: 1.5em;
+    width: 4em ;
+    height: 2.5em;
+}
+label > img{
+    width: 6em;
+    height: 6em;
+}
+.borde{
+    border:solid 0.25em #e4007c;
+    border-radius: 1em;
+    
+}
+
+.textoProducto{
+    font-weight: bold;
+}
+.textoDescriptivo{
+    color: darkgray;
+}
+.botonQuitar{
+  background: #e4007c;
+  border-radius: 2em;
+  box-shadow: #28a2c0 0 10px 20px -10px;
+  color: #FFFFFF;
+  cursor: pointer;
+  /* font-family:; */
+  line-height: .5em; 
+  outline: 0 solid transparent;
+  padding: 0.5em 2em;
+  border:solid 0.25em #28a2c0;
+}
+.botonAxale{
+    background: #28a2c0;
+    border-radius: 2em;
+    color: #FFFFFF;
+    cursor: pointer;
+    /* font-family:; */
+    line-height: .5em; 
+    outline: 0 solid transparent;
+    padding: 0.5em 2em;
+    border:solid 0.25em #28a2c0;
+  }
+.botonMasMenos{
+  background: #ffffff;
+  border-radius: 2em;
+  box-shadow: #b53ace 0 10px 20px -10px;
+  color: #54bebe;
+  cursor: pointer;
+  /* font-family:; */
+  line-height: .5em; 
+  outline: 0 solid transparent;
+  padding: 0.5em 2em;
+  border:solid 0.25em #e4007c;
+}
+/*  */
+main section.Borde{
+    background: white;
+    border: 5px solid #e4007c;
     height: 60%;
     width: 60%;
     box-shadow: 10px 5px 5px black;
     border-radius: 10px;
 }
-.mensajeVacio{
-    color: tomato;
-}
-.container-lg{
-    display: flexbox;
-    margin-top: 10%;
-}
-.oculto {
-    display: none;
-}
-main div .producto{
-    background-color: hsla(360, 100%, 100%, 0.86);
-}
-/*  */
-.size span {
-    font-size: 11px
-}
 
-.color span {
-    font-size: 11px
-}
-
-.product-deta {
-    margin-right: 70px
-}
-
-.gift-card:focus {
-    box-shadow: none
-}
-
-.pay-button {
-    color: #fff
-}
-
-.pay-button:hover {
-    color: #fff
-}
-
-.pay-button:focus {
-    color: #fff;
-    box-shadow: none
-}
-
-.text-black {
-    color: #000000
-}
-
-.qty i {
-    font-size: 11px
-}
-/*  */

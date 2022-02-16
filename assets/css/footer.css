@@ -5,7 +5,7 @@ body {  /*Si se quita esto se mueve el diseño*/
     justify-content: flex-end;
     align-items: flex-end;
     min-height: 100vh;
-    background: #333
+   /*  background: #333 */
 }
 
 footer {

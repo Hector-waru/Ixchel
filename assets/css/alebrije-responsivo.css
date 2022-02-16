@@ -1,0 +1,11 @@
+.categoria{
+    font-weight: bold;
+    text-align: center;
+}
+div > img{
+    height: 15em;
+    width: auto;
+}
+.colorNegro{
+    color: black;
+}
