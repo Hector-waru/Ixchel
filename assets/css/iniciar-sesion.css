@@ -24,7 +24,7 @@ section {
 .container {
     background-color: white;
     width: 15cm;
-    height: 16.5cm;
+    height: 16.7cm;
     border-radius: 50px;
     margin-top: -15px;
 }
@@ -50,7 +50,7 @@ section {
     width: 10cm;
     height: 1cm;
     margin-left: 75px;
-    border: solid 1px;
+    
 }
 
 #password {
@@ -59,7 +59,7 @@ section {
     width: 10cm;
     height: 1cm;
     margin-left: 75px;
-    border: solid 1px;
+    
 }
 
 #btn-iniciar {

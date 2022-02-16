@@ -39,7 +39,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 77px;
-  border: solid 1px;
+  
 }
 
 #email {
@@ -48,7 +48,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 77px;
-  border: solid 1px;
+  
 }
 
 #direccion {
@@ -57,7 +57,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 77px;
-  border: solid 1px;
+  
 }
 
 #label-rfc {
@@ -74,7 +74,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 77px;
-  border: solid 1px;
+  
 }
 
 #password1 {
@@ -83,7 +83,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 77px;
-  border: solid 1px;
+  
 }
 
 #password2 {
@@ -92,7 +92,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 77px;
-  border: solid 1px;
+  
 }
 
 #btn-registrarse {

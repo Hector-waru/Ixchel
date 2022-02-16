@@ -30,19 +30,21 @@
         <br>
         <h2 class="iniciar-sesion">Iniciar Sesión</h2>
         <br>
-        <form>
+        <form class="needs-validation" novalidate>
           <label for="email" class="labels">Ingresa tu correo electrónico</label>
           <br>
-          <input type="email" name="email" id="email" placeholder="Ingresa tu correo electrónico">
+          <input type="email" name="email" class="col-12 form-control" id="email" placeholder="Ingresa tu correo electrónico" required>
           <br>
-          <br>
+          
+          
           <label for="password" class="labels">Ingresa tu contraseña</label>
           <br>
-          <input type="password" name="password" id="password" placeholder="Ingresa tu contraseña">
+          <input type="password" name="password" class="col-12 form-control" id="password" placeholder="Ingresa tu contraseña" required>
           <br>
-          <br>
+          
+          <button id="btn-iniciar" type="submit"">Iniciar</button>
         </form>
-        <button id="btn-iniciar" onclick="validarIniciarSesion()">Iniciar</button>
+        
         
         <br>
         
