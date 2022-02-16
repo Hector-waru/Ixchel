@@ -1,0 +1,34 @@
+/* 
+Producto Individual
+
+*/
+@media (min-width: 468px) {
+    .texto{
+        text-align: justify;
+        font-family: "Mukta", sans-serif;
+        width: 80%;
+    }
+    .container{
+        width: 50%;
+        justify-content: center;
+        margin-top: 18px;
+    } 
+}
+
+.referenciasDisponible{
+    text-align: center;
+}
+.añadir-carrito {
+    color: white;
+    background-color: #570c83;
+    border: 4px solid white;
+    border-radius: 20px;
+    margin: 0;
+    padding: 2 0;
+  }
+.container{
+    margin-bottom: 3%;
+}
+.texto{
+    margin-left: 5%;
+}
