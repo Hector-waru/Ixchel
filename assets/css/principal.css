@@ -1,5 +1,3 @@
-
-
 body {
 
     background-color:#570c83 ;
@@ -8,27 +6,9 @@ body {
     color: white;
     
 }
-.ropa{
-    height: 300px;
-    width: 300px;
-}
-
 .logo {
-    margin-left: 20px;
-  }
-  .artisan-title {
-    font-weight: bold;
-    margin: 50px 0;
-  }
-  .avatar {
-    display: inline-block;
-    padding: 0 100px;
-  }
-  .artesanos {
-    margin-left: 200px;
-    margin-right: 50px;
-  }
-  
+    margin-left: 0px;
+  } 
   .login {
     margin-left: 450px;
     margin-right: 20px;
@@ -44,8 +24,8 @@ body {
     background-color: #570c83;
     border: 4px solid white;
     border-radius: 20px;
-    margin: 0;
-    padding: 2 0;
+    margin: 0px;
+    padding: 2 0px;
   }
   
   .text {
@@ -55,54 +35,56 @@ body {
 
   .parrafo-rosa{
     color: #E4007C;
+    font-size: 50px;
 }
 
 .parrafo-azul{
     color: #73C2FB;
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
 }
 .parrafo-amarillo{
     color: #FFE975;
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
 }
 
 .parrafo-blanco{
     color: white;
+    
 }
-  
-  .profile {
-    margin: 50px 150px;
-  }
-footer {
+  footer {
     position: relative;
     width: 100%;
     background: #3586ff;
-    min-height: 20px;
-    padding: 10px 0px;
+    min-height: 100px;
+    padding: 0px 0px; 
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
 }
 .logo img{
-    width: 130px ;
-    flex-direction: column;
-    
+    width: 100px ;
+    position: static!important;
+    text-align: center;
 }
 
-footer .social_icon, 
-footer .menu{  /*iconos*/
+footer .social_icon,
+footer .menu {  /*iconos*/ 
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px 0;
     flex-wrap: wrap;
+    list-style:none
 }
-footer .social_icon li,
+footer .social_iron li,
 footer .menu li{
     list-style: none; 
 }
 footer .social_icon li a {
-    font-size: 1.8em;
+    font-size: 2em;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
@@ -110,9 +92,9 @@ footer .social_icon li a {
 }
 footer .social_icon li a:hover{
     transform: translateY(-10px);
-} 
+}
 footer .menu li a {
-    font-size: 1.em;
+    font-size: 1.2em;
     color: #fff;
     margin: 0 10px;
     display: inline-block;
@@ -121,7 +103,6 @@ footer .menu li a {
 footer .menu li a:hover{
     opacity: 1;
 }
-
 footer p {
     color: #fff;
     text-align: center;
@@ -132,16 +113,16 @@ footer p {
 
 footer .wave{
     position: absolute;
-    top: -80px;
+    top: -100px;
     left: 0;
     width: 100%;
-    height: 80px;
+    height: 100px;
     background: url(../../imagenes/wave.png);
-    background-size: 1000px 100px;
+    background-size: 1000px 100px; /*cambia  la posisicion de las ondas*/
 }
 footer .wave#wave1{
-    z-index: 1000;
-    opacity: 0.8;
+    z-index: 700;
+    opacity: 1;
     bottom: 0;
     animation: animateWave 4s linear infinite;
 }
@@ -155,13 +136,13 @@ footer .wave#wave3{
     z-index: 1000;
     opacity: 0.2;
     bottom: 15px;
-    animation: animateWave 3s linear infinite;
+    animation: animateWave 5s linear infinite;
 }
 footer .wave#wave4{
-    z-index: 990;
+    z-index: 999;
     opacity: 0.7;
     bottom: 20px;
-    animation: animateWave_02 3s linear infinite;
+    animation: animateWave_02 5s linear infinite;
 }
 @keyframes animateWave{
     0%{
@@ -180,15 +161,4 @@ footer .wave#wave4{
     }
 }
 
-   /*  margin: 0;
-    display:flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    min-height: 100vh;
-    background: #570c83;
-    color: white;
-    font-family: "Mukta", sans-serif;
-    font-size: 20px;
-    display: grid;
-    min-height: 100vh;
-    grid-template-rows: auto 1fr auto; */
+
