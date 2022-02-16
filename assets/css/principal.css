@@ -1,5 +1,3 @@
-
-
 body {
 
     background-color:#570c83 ;
@@ -8,6 +6,11 @@ body {
     color: white;
     
 }
+/* Operacional para footer */
+.margen{
+    margin-top: 10em;
+      }
+/* Termina */
 .ropa{
     height: 300px;
     width: 300px;
