@@ -18,33 +18,52 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-
-    <div class="container-fluid logo">
-      <a class="navbar-brand" href="index.html"><img src="imagenes/logo.png" width="150"></a>
-    
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item left-bar artesanos">
-            <a class="nav-link active" aria-current="page" href="artesanos.html">Artesanos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="catalogo.html">Catálogo</a>
-          </li>
-          <li class="nav-item login">
-            <a class="nav-link active" aria-current="page" href="iniciar-sesion.html">Iniciar sesión</a>
-          </li>
-          <li class="nav-item signup">
-            <button class="signup-btn">
-            <a class="nav-link active" aria-current="page" href="registro-comprador.html">Regístrate</a>
-            </button>
-          </li>
-          <a class="navbar-brand" href="carrito.html"><img src="imagenes/cart.png" width="30"></a>
-        </ul>
+  <!--NAVBAR-->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="imagenes/logo.png" alt="" width="150">
+        </a>
+        <buttom type="button" class="navbar-toggler"data-bs-toggle="collapse"data-bs-target="#MenuNavegacion">
+          <span class="navbar-toggler-icon"></span>
+        </buttom>
+        <div id="MenuNavegacion" class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="artesanos.html">Artesanos</a>
+            </li>
+            <!--Menu desplegable-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Catalogo
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="catalogo-joyeria-jade.html">Joyería</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="catalogo-arte-alebrijes.html">Arte</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--FinMenuesplegable-->
+          <form class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="iniciar-sesion.html">Iniciar Sesion</a>
+              </li>
+              <li class="nav-item signup">
+                <button class="signup-btn">
+                <a class="nav-link active" aria-current="page" href="registro-comprador.html">Regístrate</a>
+                </button>
+                <a  class="social-icon" href="carrito.html"><ion-icon name="cart-outline"></ion-icon></a>
+            </li>
+          </form>
+        </div>
       </div>
+    </nav>
     </div>
-  </nav>
-  
+    <!--Fin Nav-->
+</header>
 </body>
 </html>
 

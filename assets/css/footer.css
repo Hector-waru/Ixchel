@@ -1,19 +1,17 @@
 
 
-body {  /*Si se quita esto se mueve el diseño*/
-    display:flex;
+/*.bodyfooter {  /*Si se quita esto se mueve el diseño*/
+    /*display:flex;
     justify-content: flex-end;
     align-items: flex-end;
     min-height: 100vh;
-    background: #333
-}
-
+   /*  background: #333 */
 footer {
     position: relative;
-    width: 100%;
     background: #3586ff;
     min-height: 100px;
-    padding: 20px 50px;
+    padding: 20px 0 0px;
+    background-size: 100% 60%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -32,14 +30,14 @@ footer .menu {  /*iconos*/
     align-items: center;
     margin: 10px 0;
     flex-wrap: wrap;
-    list-style:none
+    list-style:none;
 }
 footer .social_iron li,
 footer .menu li{
     list-style: none; 
 }
 footer .social_icon li a {
-    font-size: 2em;
+    font-size: 1.5em;
     color: #fff;
     margin: 0 10px;
     display: inline-block;

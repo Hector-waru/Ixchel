@@ -2,20 +2,29 @@ body {
     background-color: rgb(87,12,131);
 }
 
+section {
+    align-items: center;
+}
+
 #logo {
     width: 100px;
     height: 50px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    align-self: center;
 }
 
 .logo {
     width: 100px;
     height: 50px;
     margin: auto;
+    
 }
+
 .container {
     background-color: white;
     width: 15cm;
-    height: 15.3cm;
+    height: 16.7cm;
     border-radius: 50px;
     margin-top: -15px;
 }
@@ -41,7 +50,7 @@ body {
     width: 10cm;
     height: 1cm;
     margin-left: 75px;
-    border: solid 1px;
+    
 }
 
 #password {
@@ -50,7 +59,7 @@ body {
     width: 10cm;
     height: 1cm;
     margin-left: 75px;
-    border: solid 1px;
+    
 }
 
 #btn-iniciar {

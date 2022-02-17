@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+    .avatar-artesano{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+}
+.contenido-principal{
+    text-align: center;
+}
+.avatar-artesano{
+    width: 30%;
+}

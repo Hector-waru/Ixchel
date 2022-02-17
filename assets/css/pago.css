@@ -3,7 +3,7 @@ body {
 }
 
 .logo {
-  width: 200px;
+  width: 110px;
   display: flex;
   margin: auto;
 }
@@ -11,8 +11,9 @@ body {
 .container {
   background-color: white;
   width: 600px;
-  height: 550px;
+  height: 625px;
   border-radius: 20px;
+  margin-top: 10px;
 }
 
 .datos-pago-titulo {
@@ -36,7 +37,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 90px;
-  border: solid 1px;
+  
 }
 
 #titular-tarjeta {
@@ -45,7 +46,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 90px;
-  border: solid 1px;
+  
 }
 
 #vencimiento {
@@ -54,7 +55,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 90px;
-  border: solid 1px;
+  
 }
 
 #cvv {
@@ -63,7 +64,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 90px;
-  border: solid 1px;
+  
 }
 
 #btn-pedido {

@@ -2,6 +2,11 @@ body {
     background-color: rgb(87,12,131);
 }
 
+#pago {
+    text-decoration: none;
+    color: white;
+}
+
 .logo {
     width: 200px;
     display: flex;
@@ -11,8 +16,9 @@ body {
 .container{
     background-color: white;
     width: 600px;
-    height: 550px;
+    height: 720px;
     border-radius: 20px;
+    margin-top: 10px;
 }
 
 .direccion-entrega {
@@ -36,7 +42,7 @@ body {
     width: 10cm;
     height: 1cm;
     margin-left: 90px;
-    border: solid 1px;
+    
 }
 
 #estado {
@@ -45,7 +51,7 @@ body {
     width: 10cm;
     height: 1cm;
     margin-left: 90px;
-    border: solid 1px;
+    
 }
 
 #ciudad {
@@ -54,7 +60,7 @@ body {
     width: 10cm;
     height: 1cm;
     margin-left: 90px;
-    border: solid 1px;
+    
 }
 
 #codigo-postal {
@@ -63,13 +69,14 @@ body {
     width: 10cm;
     height: 1cm;
     margin-left: 90px;
-    border: solid 1px;
+    
 }
 
 #btn-direccion {
     font-family: 'Mukta', sans-serif;
     font-size: 18px;
     color: white;
+    font-weight: bold;
     background-color: rgb(228,0,124);
     width: 300px;
     height: 40px;
