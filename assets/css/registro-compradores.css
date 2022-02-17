@@ -56,17 +56,20 @@ body {
     #email {
       font-family: 'Mukta', sans-serif;
       color: white;
+      margin: auto;
  
     }
     
     #password1 {
       font-family: 'Mukta', sans-serif;
       color: white;
+      margin: auto;
     }
     
     #password2 {
       font-family: 'Mukta', sans-serif;
       color: white;
+      margin: auto;
     }
     .nuevo-artesano {
       font-family: 'Mukta', sans-serif;
@@ -119,7 +122,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 63px;
-  border: solid 1px;
+  
 }
 
 #password1 {
@@ -128,7 +131,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 63px;
-  border: solid 1px;
+  
 }
 
 #password2 {
@@ -137,7 +140,7 @@ body {
   width: 10cm;
   height: 1cm;
   margin-left: 63px;
-  border: solid 1px;
+  
 }
 
 #btn-registrarse {
