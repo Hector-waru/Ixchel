@@ -1,11 +1,22 @@
 /* Catalogo*/
+body {
+  background-color:#570c83 ;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+  color: white;
+  
+}
+.ropa{
+  height: 300px;
+  width: 300px;
+}
 .artisan-title {
     font-weight: bold;
-    margin: 55px 0;
+    margin: 0px 0;
 
   }
   .text {
-    margin: 50px 150px;
+    margin: 20px 150px;
   }
   
   .profile {
