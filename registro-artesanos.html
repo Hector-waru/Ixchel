@@ -24,51 +24,59 @@
     <div class="container">
       <a href="index.html"> <img src="assets/imgs/logo-morado.png" alt="Logo Ixchel" class="logo"></a>
       
-      <form id="registro-artesano">
+      <form class="needs-validation" novalidate>
         <br>
         <h2 class="registrate">Regístrate como artesano(a)</h2>
         <br>
+        
         <!--Nombre-->
         <label for="nombre" class="labels">Ingresa tu nombre completo</label>
         <br>
-        <input type="text" id="name" placeholder="Ingresa tu nombre" required>
+        <input type="text" id="name" class="col-12 form-control" placeholder="Ingresa tu nombre" required>
+        
         <br>
-        <br>
+        
+        
         <!--Correo-->
         <label for="email" class="labels">Ingresa tu correo electrónico</label>
         <br>
-        <input type="email" id="email" placeholder="Ingresa tu correo electrónico">
+        <input type="email" id="email" class="col-12 form-control" placeholder="Ingresa tu correo electrónico" required>
         <br>
-        <br>
+        
+        
         <!--Direccion-->
         <label for="direccion" class="labels">Ingresa tu domicilio</label>
         <br>
-        <input type="text" id="direccion" placeholder="Ingresa tu domicilio">
+        <input type="text" id="direccion" class="col-12 form-control" placeholder="Ingresa tu domicilio" required>
         <br>
-        <br>
+        
+        
         <!--RFC-->
         <label for="rfc" id="label-rfc">Ingresa tu RFC (Registro Federal de Contribuyentes)</label>
         <br>
-        <input type="text" id="rfc" placeholder="Ingresa tu RFC">
+        <input type="text" id="rfc" class="col-12 form-control" placeholder="Ingresa tu RFC" required>
         <br>
-        <br>
+        
+        
         <!--Contraseña1-->
         <label for="password1" class="labels">Ingresa tu contraseña</label>
         <br>
-        <input type="password" id="password1" placeholder="Ingresa tu contraseña">
+        <input type="password" id="password1" class="col-12 form-control" placeholder="Ingresa tu contraseña" required>
         <br>
-        <br>
+        
+        
         <!--Contraseña2-->
         <label for="password2" class="labels">Ingresa tu contraseña nuevamente</label>
         <br>
-        <input type="password" id="password2" placeholder="Ingresa tu contraseña nuevamente">
+        <input type="password" id="password2" class="col-12 form-control" placeholder="Ingresa tu contraseña nuevamente" required>
         <br>
-        <br>
+        
+        
         <!--Botón registro-->
-        <!--<button id="btn-registrarse" value="Registrare" onclick="getInfo()">Registrarse</button>-->
+        <button id="btn-registrarse" type="submit" value="Registrare" onclick="validarContraseñas()">Registrarse</button> 
         
       </form> 
-      <button id="btn-registrarse" value="Registrare" onclick="getInfo()">Registrarse</button> 
+      
     </div>
 
     
