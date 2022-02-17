@@ -1,6 +1,86 @@
 body {
-    background-color: rgb(87,12,131);
+  background-color: rgb(87,12,131);
 }
+
+@media (max-width: 768px) {
+    .registrate{
+      color: white;
+      text-align: center;
+    }
+    .labels2{
+      color: white;
+      background-color: #570c83;
+      border: 4px solid white;
+      border-radius: 20px;
+      margin: 0;
+      text-align: center;
+      width: 250px;
+      height: 50px;
+    }
+    ::placeholder{
+      color: white;
+      font-family: 'Mukta', sans-serif;
+    }
+    .logo {
+      display: flex;
+      margin: 0 auto;
+      margin-top: 10px;
+      width: 100px;
+      height: 50px;
+    }
+    .container{
+      text-align: center;
+      justify-content: center;
+    }
+    .btn-nuevo {
+      color: white;
+      width: 200px;
+      height: 40px;
+      background-color: rgb(237,89,170);
+      margin: auto;
+      border-radius: 15px;
+      border: solid 2px rgb(96,16,133);
+    }
+    #btn-registrarse {
+      font-family: 'Mukta', sans-serif;
+      font-size: 20px;
+      color: white;
+      font-weight: bold;
+      background-color: rgb(228,0,124);
+      border-radius: 15px;
+      border: none;
+     text-align: center;
+      width: 200px;
+      height: 40px;
+    }
+    #email {
+      font-family: 'Mukta', sans-serif;
+      color: white;
+ 
+    }
+    
+    #password1 {
+      font-family: 'Mukta', sans-serif;
+      color: white;
+    }
+    
+    #password2 {
+      font-family: 'Mukta', sans-serif;
+      color: white;
+    }
+    .nuevo-artesano {
+      font-family: 'Mukta', sans-serif;
+      font-weight: bold;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+    }
+    .otraspropiedades{
+      color: white;
+    }
+}
+@media (min-width: 769px) {
+
 
 .logo {
   display: flex;
@@ -99,4 +179,5 @@ body {
   border-radius: 5px;
   border: solid 2px rgb(96,16,133);
   
+}
 }
