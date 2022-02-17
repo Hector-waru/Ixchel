@@ -14,8 +14,13 @@ body {
   font-size: 40px;
 }
 
+.navbar {
+  position: relative;
+}
+
 .flex-container {
-  margin: 150px;
+  margin: 70px;
+  z-index: 1;
 }
 
 .form {
@@ -23,7 +28,7 @@ body {
   background-color: white;
   color: #570c83;
   border-radius: 20px;
-  width: 600px;
+  width: 500px;
 }
 
 .center {
@@ -86,5 +91,9 @@ body {
 }
 
 #joyeria {
+  display: none;
+}
+
+#stock {
   display: none;
 }

@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #570c83;
+  font-family: "Mukta", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.navbar {
+  position: relative;
+}
+
+.flex-container {
+  margin: 70px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.imagen {
+  margin-left: 50px;
+}
+.card {
+  margin: 30px;
+}
+
+.card-title {
+  color: black;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.card-text {
+  color: black;
+  font-size: medium;
+}
+
+#btn-publicar {
+  display: flex;
+  margin: auto;
+  color: white;
+  background-color: #570c83;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 30px;
+}
