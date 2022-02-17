@@ -10,7 +10,7 @@
 }
 
 .profile {
-  margin: 50px 100px;
+  text-align: center;
 }
 
 .avatar {
@@ -20,4 +20,7 @@
 
 .name {
   text-align: center;
+}
+a {
+  text-decoration: none;
 }
