@@ -1,29 +1,20 @@
-let numTarjeta = document.getElementById('numeros-tarjeta');
-let titularTarjeta = document.getElementById('titular-tarjeta');
-let vencimiento = document.getElementById('vencimiento');
-let cvv = document.getElementById('cvv');
-
-function validarPago() {
-
-    console.log(numTarjeta.value);
-    if(numTarjeta.value == '') {
-        alert('Introduce los números de tu tarjeta');
-    }
-
-    console.log(titularTarjeta.value);
-    if(titularTarjeta.value == ''){
-        alert('Introduce el nombre del titular de la tarjeta');
-    }
-
-    console.log(vencimiento.value);
-    if(vencimiento.value == ''){
-        alert('Introduce la fecha de venicmiento de la tarjeta');
-    }
-
-    console.log(cvv.value);
-    if(cvv.value == '') {
-        alert('Introduce el CVV del reverso de la tarjeta');
-    }
-    
-
-}
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+    'use strict'
+  
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+  
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+      .forEach(function (form) {
+        form.addEventListener('submit', function (event) {
+          if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+          }
+  
+          form.classList.add('was-validated')
+        }, false)
+      })
+  })()

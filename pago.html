@@ -24,34 +24,38 @@
             <br>
             <h2 class="datos-pago-titulo">Datos de pago</h2>
             <br>
-            <form>
+            <form class="needs-validation" novalidate>
                 <!--Numeros de tarjeta-->
                 <label for="numeros-tarjeta" class="labels">Ingresa los números de tu tarjeta</label>
                 <br>
-                <input type="number" name="numeros-tarjeta" id="numeros-tarjeta" placeholder="XXXX-XXXX-XXXX-XXXX">
+                <input type="number" name="numeros-tarjeta" class="col-12 form-control" id="numeros-tarjeta" placeholder="XXXX-XXXX-XXXX-XXXX" required>
                 <br>
-                <br>
+                
+                
                 <!--Nombre titular de la tarjeta-->
                 <label for="titular-tarjeta" class="labels">Nombre del titular de la tarjeta</label>
                 <br>
-                <input type="text" name="titular-tarjeta" id="titular-tarjeta" placeholder="Escribe el nombre como está escrito en la tarjeta">
+                <input type="text" name="titular-tarjeta" class="col-12 form-control" id="titular-tarjeta" placeholder="Escribe el nombre como está escrito en la tarjeta" required>
                 <br>
-                <br>
+                
+                
                 <!--Fecha de vencimiento-->
                 <label for="vencimiento" class="labels">Fecha de vencimiento</label>
                 <br>
-                <input type="text" name="vencimiento" id="vencimiento" placeholder="MM/AA">
+                <input type="text" name="vencimiento" class="col-12 form-control" id="vencimiento" placeholder="MM/AA" required>
                 <br>
-                <br>
+                
+               
                 <!--CVV-->
                 <label for="cvv" class="labels">CVV</label>
                 <br>
-                <input type="number" name="cvv" id="cvv" placeholder="XXX">
+                <input type="number" name="cvv" class="col-12 form-control" id="cvv" placeholder="XXX" required>
                 <br>
-                <br>
-                <!--<input type="submit" id="btn-pedido" value="Confirmar pedido">-->                
+                
+                
+                <button id="btn-pedido" type="submit">Confirmar pedido</button>
             </form>
-            <button id="btn-pedido" onclick="validarPago()">Confirmar pedido</button>
+            
         </div>
 
         <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

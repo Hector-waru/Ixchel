@@ -23,40 +23,45 @@
       <br>
       <br>
       <div class="container container-fluid">
-        <form id="registro-comprador">
+        <form class="needs-validation" novalidate>
           <br>
-          <br>
-          <h2 class="registrate">Regístrate</h2>
           
+          <h2 class="registrate">Regístrate</h2>
+          <div class="otrapropiedades"> 
           <br>
+          
           <!--Correo-->
+          
           <label for="email" class="labels">Ingresa tu correo electrónico</label>
+          <input type="email" class="labels2 form-control" id="email" placeholder="Ingresa tu correo electrónico" width="200px" required > 
           <br>
-          <input type="email" id="email" placeholder="Ingresa tu correo electrónico">
-          <br>
-          <br>
+          
+          
           <!--Contraseña 1-->
-          <label for="email" class="labels">Ingresa tu contraseña</label>
+          <label for="password1" class="labels">Ingresa tu contraseña</label>
           <br>
-          <input type="password" id="password1" placeholder="Ingresa tu contraseña">
+          <input type="password" class="labels2 form-control" id="password1" placeholder="Ingresa tu contraseña" required>
           <br>
-          <br>
+          
+          
           <!--Contraseña 2-->
-          <label for="email" class="labels">Confirmar contraseña</label>
+          <label for="password2" class="labels">Confirma tu contraseña</label>
           <br>
-          <input type="password" id="password2" placeholder="Ingresa tu contraseña nuevamente">
+          <input type="password" class="labels2 form-control" id="password2" placeholder="Ingresa tu contraseña nuevamente" required>
           <br>
-          <br>
+          
+        </div>
+        <button id="btn-registrarse" class="botonregistrate" type="submit""> Registrar</button>
         </form>
-        <button id="btn-registrarse" onclick="getInfoComprador()"> Registrarse</button>
+        
+          
           <br>
           <p class="nuevo-artesano">¿Eres artesano(a)?</p>
           <div class="btn-nuevo">
               <div class="center">
-                  <a href="registro-artesanos.html" id="btn-nuevo-registro-artesano">Regístrate aquí</a>
+                  <a href="registro-artesanos.html" id="btn-nuevo-registro-artesano" style="color: white; font-family: 'Mukta', sans-serif;;">Regístrate aquí</a>
               </div>
           </div>
-        
       </div>
   
     
