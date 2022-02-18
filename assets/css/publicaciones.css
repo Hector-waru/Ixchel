@@ -12,3 +12,37 @@
   color: black;
   font-size: medium;
 }
+
+/* Cambios CSS GRID */
+.contenedor{
+width: 90%;
+max-width: 1000px;
+/*CSS GRID */
+display: grid;
+/* espaciado entre elementos */
+
+grid-template-columns: repeat(3, 1rf);
+grid-template-rows: repeat(1, auto);
+
+}
+.contenedor .contenido{
+  grid-column: span 2;
+}
+.contenedor .sidebar{
+  grid-column: 3 / 3;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  /* height: 300px;
+  min-height: 150px;
+  grid-row: 2; */
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor .contenido{
+    grid-column: 1/-1;
+  }
+  .contenedor .sidebar{
+   grid-column: 1/-1;
+  }
+}

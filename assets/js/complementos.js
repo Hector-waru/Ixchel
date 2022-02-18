@@ -14,7 +14,7 @@ document.getElementById("navBar").innerHTML = `<nav class="navbar navbar-expand-
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="niciar-sesion.html">Iniciar Sesion</a>
+        <a class="nav-link" href="iniciar-sesion.html">Iniciar Sesion</a>
       </li>
       <li class="nav-item signup">
         <button class="signup-btn">
