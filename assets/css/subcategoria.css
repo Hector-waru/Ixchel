@@ -1,0 +1,78 @@
+/* Joyeria*/
+.all {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.col {
+  box-sizing: border-box;
+}
+
+.title {
+  font-weight: bold;
+  margin: 55px 0;
+  text-align: center;
+}
+.text {
+  margin: 70px 150px;
+}
+
+.profile {
+  margin: 50px 100px;
+}
+
+.avatar {
+  display: inline-block;
+  padding: 0 87px;
+}
+
+.name {
+  text-align: center;
+}
+
+.copy {
+  width: auto;
+}
+
+.titulo-producto {
+  font-weight: 700;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.descripcion-producto {
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .col {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 60px;
+  }
+
+  .col {
+    width: 90%;
+    padding-left: 90px;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    margin: auto;
+  }
+  .col {
+    width: 90%;
+    padding-left: 50px;
+    margin-bottom: 20px;
+  }
+}

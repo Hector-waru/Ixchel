@@ -87,14 +87,19 @@
 
 
                   <fieldset class="campos">
-                    <legend class="texto-label">¿Es pieza única?</legend>
+                    <legend class="texto-label">¿Es pieza única o se fabrica bajo pedido únicamente?</legend>
 
-                    <input type="radio" name="radio-unica" class="radio-unica">
+                    <input type="radio" name="radio-unica" class="radio-unica" onclick="ocultarInventario()">
                     <label for="si">Sí</label><br>
 
-                    <input type="radio" name="radio-unica" class="radio-unica">
+                    <input type="radio" name="radio-unica" class="radio-unica" onclick="ingresarInventario()">
                     <label for="no">No</label><br>
                   </fieldset>
+
+                  <div class="campos" id="stock">
+                    <label for="stock" class="texto-label">¿Cuántas unidades del producto tienes disponibles?</label>
+                    <input type="number" name="stock" class="input-vendedor">
+                  </div>
 
                   <div class="campos">
                     <label for="titulo" class="texto-label">Título del producto</label><br>
